@@ -1,0 +1,147 @@
+body {
+  box-sizing: border-box;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-size: auto;
+  background-repeat: no-repeat;
+  font-family: "Caveat", cursive;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.img-logo {
+  width: 200px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+nav {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+}
+
+.barradenavegacion {
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  transition: 1s all;
+}
+
+nav li {
+  border-right: 1px solid #9ddff0;
+  padding: 20px 20px;
+}
+
+nav ul li:hover {
+  background-color: #b7eeee;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.banner {
+  width: 850px;
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.featured{
+    padding: 0 10px;
+    background-color: #e8d4eb;
+    overflow: hidden;
+    margin: 10px 20px 40px 10px;
+}
+
+.fp-video{
+    padding: 1em;
+}
+
+.ft-receta{
+    width: 38%;
+    font-size: 0.9em;
+    background-color:#ecaef0;
+    padding: 5px;
+    vertical-align: top;
+    margin: 20px 0px;
+}
+
+.fp-video,.ft-receta{
+    display: inline-block
+}
+
+.ft-receta h2{
+    border-bottom: solid thin black ;   
+}
+
+.boton-container{
+    text-align: center;
+    background-color: #97ebf7;
+}
+
+.boton-container a{
+    text-decoration: none;
+    color: rgb(217, 125, 230);
+}
+
+.boton-container:hover{
+background-color: seashell;
+}
+
+.boton{
+    padding: 15px;
+}
+
+.articulo{
+    padding: 30px;
+    background-color: #e8d4eb;
+    margin: 20px 0;
+}
+
+.art-image, .art-cont{
+    width: 100%;
+    text-align: center;
+}
+
+.art-image{
+    width: 800px;
+  height: 350px;
+}
+
+.pie{
+  text-align: center;
+  background-color: #e8d4eb ;
+}
+
+.redes{
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  font-size: 35px;
+  transition: all 10s ease;
+
+}
+.redes :hover{
+  transform: scale(1.2,1.2);
+}
